@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.box0{width:1251px;
+			height: 2400px;
+			background-color: red;
+			}
+			.box1{width:1251px;
+			height: 65px;
+			background-color:red;
+			display: -webkit-flex;
+    		display: flex;
+    		float: left;}
+			.box2{width:200px;
+			height: 65px;
+			background-color:red;
+			color: white;
+			font-size:40px;
+			text-align:center;
+			line-height: 65px;}
+			.box3{width:35px;
+			height: 40px;
+			background-color:red;
+			color: white;
+			font-size:13px;
+			text-align:right;
+			line-height: 32px;
+			margin-left: 20px;
+			float: left;
+			margin-top: ;}
+			.box4{width:35px;
+			height: 40px;
+			background-color:red;
+			color: white;
+			font-size:13px;
+			text-align:right;
+			line-height: 32px;
+			margin-left: 15px;
+			float: left;}
+			.box5{width:6px;
+			height: 6px;
+			background-color:white;
+			float: left;
+			margin-left: 192px;
+			margin-top: -45px;}
+			.box6{width:6px;
+			height: 6px;
+			background-color:white;
+			float: left;
+			margin-left: 200px;
+			margin-top: -37px;}
+			.box7{width:6px;
+			height: 6px;
+			background-color:white;
+			float: left;
+			margin-left: 192px;
+			margin-top: -28px;}
+			.box8{width:6px;
+			height: 6px;
+			background-color:white;
+			float: left;
+			}
+			.box9{width:60px;
+			height: 65px;
+			background-color:red;
+			color: white;
+			font-size:20px;
+			text-align:right;
+			line-height:80px;
+			margin-left: 20px;
+			float: left;}
+			.box10{width:3px;
+			height:3px;
+			background-color: white;
+			float: left;
+			margin-top: 28px;
+			margin-left: 5px;
+			}
+			.box11{width:3px;
+			height:3px;
+			background-color: white;
+			float: left;
+			margin-top: 35px;
+			margin-left: 2px;
+			}
+			.box12{width:3px;
+			height:3px;
+			background-color: white;
+			float: left;
+			margin-top: 42px;
+			margin-left: -8px;
+			}
+			ul{list-style-type: none;
+			margin: 0px;	
+			padding: 0px;	
+			overflow: hidden;
+			border: 1px salmon;
+			background-color:lightgray;	
+			width:700px ;
+			height: 25px;
+			float: left;
+			}
+			li a{
+				display:inline-block;
+				color:gray;
+				text-align: center;
+				padding: 3px 30px;
+				text-decoration: none;
+				float: left;
+			}
+			li a:hover{
+			color:red;	
+			}
+			ul.a{list-style-type: none;
+			margin: 0px;	
+			padding: 0px;	
+			overflow: hidden;
+			border: 1px salmon;
+			background-color:lightgray;	
+			width:551px ;
+			height: 25px;
+			float: left;
+			}
+			li a{
+				display:inline-block;
+				color:gray;
+				text-align: center;
+				padding: 3px 20px;
+				text-decoration: none;
+				float: left;
+			}
+			li a:hover{
+			color:red;	
+			}
+			.box13{width: 1251px;
+			height: 250px;
+			background-color: white;
+			}
+			.box14{width: 200px;
+			height:100px;			
+			background-color: white;
+			margin-left: 200px;
+			float: left;
+			}
+			.box15{width: 400px;
+			height:30px;			
+			background-color:white;
+			margin-right: 200px;
+			margin-top: 60px;
+			float:right;
+			}
+			.box16{width: 400px;
+			height:30px;			
+			background-color:red;
+			margin-right: 140px;
+			margin-top: 0px;
+			padding: 2px;
+			float:right;
+			}
+			.box17{width: 100px;
+			height:30px;			
+			background-color:red;
+			color: white;
+			margin-top: -34px;
+			margin-right: 40px;
+			padding: 2px;
+			float:right;
+			text-align: center;
+			line-height: 30px;
+			}
+			.box18{width: 1251px;
+			height: 400px;
+			background-image: url(img/2345_image_file_copy_1.jpg);}
+			.box19{width: 100px;
+			height:90px;
+			background-image: url(img/2345_image_file_copy_3.jpg);
+			float: left;
+			margin-left: 400px;
+			}
+			.box20{width: 100px;
+			height:90px;
+			background-image: url(img/2345_image_file_copy_3.jpg);
+			float: left;
+			margin-right: 400px;
+			}
+			.box21{width: 150px;
+			height:90px;
+			color: white;
+			float: left;
+			margin-left: 60px;
+			margin-top: 30px;
+			}
+			.box22{width:200px;
+			height: 300px;
+			background-color:hotpink;
+			margin-top: 30px;
+			margin-left:70px ;
+			float: left;}
+			.box23{width:1251px;
+			height: 120px;
+			background-color:red;
+			margin-top: 10px;
+			display: -webkit-flex;
+    		display: flex;
+			}
+			.box24{width: 1251px;
+			height: 400px;
+			background-color:red;
+			display: -webkit-flex;
+    		display: flex;
+    		justify-content: space-between;
+    		}
+    		.box25{width: 150px;
+    		height: 500px;
+    		 border: 1px solid #D4CD49; 
+    		 background-color: cyan;
+    		 position:fixed;
+    		 margin-top: -560px;	
+    		}
+    		.box26{width: 150px;
+    		height: 100px;
+    		}
+    		ul.b{list-style-type: none;
+			margin: 0px;	
+			padding: 0px;	
+			overflow: hidden;
+			background-color:blue;
+			width:150px ;
+			height: 400px;
+			float: left;
+			}
+			li a{
+				display:inline-block;
+				color:white;
+				text-align: center;
+				padding: 6.5px 5px;
+				text-decoration: none;
+				float: left;
+			}
+			li a:hover{
+			color:darkblue;	
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box0">
+			<div class="box1">
+			<div class="box2"><font face="楷体">天猫双11</font>
+				<div class="box5"></div><div class="box6"></div><div class="box7"></div>
+			</div>	
+			<div class="box3"><font face="微软雅黑">潮流女装</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">大牌男装</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">户外运动</font></div>	
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">男女鞋履</font></div>	
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">大牌美妆</font></div>	
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">食品酒水</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">母婴会场</font></div>	
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">进口尖货</font></div>	
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">品质高端</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">全球家电</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">手机会场</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box9"><font face="微软雅黑">小家电</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">电脑整机</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">精品家具</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">家纺家饰</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+			<div class="box4"><font face="微软雅黑">家装建材</font></div>
+			<div class="box10"></div>
+			<div class="box11"></div>
+			<div class="box12"></div>
+		</div>
+		<ul>
+			<li><a href="#">天猫首页</a></li>
+			<li><a href="#">喵，欢迎来天猫</a></li>
+			<li><a href="#">请登陆</a></li>
+			<li><a href="#">免费注册</a></li>
+		</ul>
+		<ul class="a">
+			<li><a href="#">我的淘宝</a></li>
+			<li><a href="#">购物车0件</a></li>
+			<li><a href="#">收藏夹</a></li>
+			<li><a href="#">淘宝网</a></li>
+			<li><a href="#">商家支持</a></li>
+		</ul>
+		<div class="box13"><div class="box14"><img src="img/2345_image_file_copy_a.jpg" width="200px" height="120px"></div>
+		<div class="box15">
+			<div class="box16"><input style="width: 395px; height:25px;border: 2px red;" /></div> 
+			<div class="box17">搜索</div>
+		</div>
+		</div>
+		<div class="box18"></div>
+		<div class="box25">			
+			<div class="box26"><img src="img/TB1MeDVlmzqK1RjSZPxXXc4tVXa-90-58.png" width="150px"; height="100px"></div>
+			<ul class="b">
+			<li><a href="#">时尚女装</a></li>
+			<li><a href="#">大牌男装</a></li>
+			<li><a href="#">运动户外</a></li>
+			<li><a href="#">男女鞋靴</a></li>
+			<li><a href="#">舒适内衣</a></li>
+			<li><a href="#">箱包服配</a></li>
+			<li><a href="#">潮流服饰</a></li>
+			<li><a href="#">大牌美妆</a></li>
+			<li><a href="#">母婴好货</a></li>
+			<li><a href="#">食品酒水</a></li>
+			<li><a href="#">医疗健康</a></li>
+			<li><a href="#">品质生鲜</a></li>
+			<li><a href="#">品质高端</a></li>
+			<li><a href="#">全球尖货</a></li>
+			<li><a href="#">天猫科技</a></li>
+			<li><a href="#">手机会场</a></li>
+			<li><a href="#">精品家具</a></li>
+			<li><a href="#">灯具电工</a></li>
+			<li><a href="#">家装建材</a></li>
+			<li><a href="#">装修建材</a></li>
+			<li><a href="#">汽车用品</a></li>
+			<li><a href="#">天猫超市</a></li>
+			<li><a href="#">飞猪旅行</a></li>
+			<li><a href="#">手机通信</a></li>
+			</ul>
+		</div>
+		<div class="box23">
+		<div class="box19"></div>
+		<div class="box21"><font size="6">精选会场</font></div>
+		<div class="box20"></div></div>
+		<div class="box24">
+		<div class="box22"><img src="img/TIM截图20181105162258.png" width="200px"height="300px"> </div>
+		<div class="box22"><img src="img/TIM截图20181105162429.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105162532.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105162654.png" width="200px"height="300px"></div>
+		</div>
+		<div class="box23">
+		<div class="box19"></div>
+		<div class="box21"><font size="6">健康美食</font></div>
+		<div class="box20"></div></div>
+		<div class="box24">
+		<div class="box22"><img src="img/TIM截图20181105162939.png" width="200px"height="300px"> </div>
+		<div class="box22"><img src="img/TIM截图20181105163022.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105163113.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105163153.png" width="200px"height="300px"> </div>
+		</div>
+		<div class="box23">
+		<div class="box19"></div>
+		<div class="box21"><font size="6">美妆洗护</font></div>
+		<div class="box20"></div></div>
+		<div class="box24">
+		<div class="box22"><img src="img/TIM截图20181105163415.png" width="200px"height="300px"> </div>
+		<div class="box22"><img src="img/TIM截图20181105163540.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105163601.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105163632.png" width="200px"height="300px"> </div>
+		</div>
+		<div class="box23">
+		<div class="box19"></div>
+		<div class="box21"><font size="6">生活家电</font></div>
+		<div class="box20"></div></div>
+		<div class="box24">
+		<div class="box22"><img src="img/TIM截图20181105164813.png" width="200px"height="300px"> </div>
+		<div class="box22"><img src="img/TIM截图20181105164754.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105164737.png" width="200px"height="300px"></div>
+		<div class="box22"><img src="img/TIM截图20181105164709.png" width="200px"height="300px"> </div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	</body>
+</html>
