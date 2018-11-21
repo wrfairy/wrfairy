@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>jsjsjsjs </title>
+		<style>
+			#box1 {
+				width: 700px;
+				height: 650px;
+				background-image: url(img/1542208201367.jpg);
+				margin: auto;
+			}
+			
+			#s2 {
+				text-decoration: none;
+				color: bisque;
+				margin-left: 5px;
+				font-size: 30px;
+			}
+			
+			#q4 {}
+			
+			#p1 {
+				font-size: 30px;
+				color: black;
+			}
+			
+			#p2 {
+				font-size: 30px;
+				color: black;
+			}
+			
+			#p6 {
+				border-radius: 30px;
+				color: red;
+				height: 30px;
+			}
+			
+			#right {
+				float: right;
+			}
+		</style>
+		<script>
+			function createA() {
+				var x = document.createElement("a");
+				var y = document.createTextNode("我要过期末考试过过过");
+				x.appendChild(y);
+				document.getElementById("w2").appendChild(x);
+				x.setAttribute("href", "#");
+				x.style.display = "block";
+				x.style.color = "yellow";
+				x.style.backgroundColor = "red";
+				x.style.textDecoration = "none";
+					}
+
+
+			function removeP() {
+				var parent = document.getElementById("q4");
+				var child1 = document.getElementById("p1");
+				var child2 = document.getElementById("p2");
+				parent.removeChild(child1);
+				parent.removeChild(child2);
+			}
+
+			function removeA() {
+				var parent = document.getElementById("e1");
+				var child1 = document.getElementById("w2");
+
+				parent.removeChild(child1);
+
+			}
+			function baRed() {
+				var p = document.getElementById("p1");
+				var p1 = document.getElementById("p2");
+				var p2 = document.getElementById("s2");
+				p2.style.backgroundColor = "gold";
+				p.style.backgroundColor = "indianred";
+				p1.style.backgroundColor = "red";
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="box1">
+			<div id="q4">
+				<p id="p1">期末考试过过过</p>
+				<p id="p2">必过必过必过</p>
+				
+			</div>
+			<div id="right">
+				<button onclick="baRed()" id="p6">改变所有背景</button>
+				<button onclick="createA()" id="p6">增加一个不一样的A元素</button>
+				<button onclick="removeA()" id="p6">删除所有的A元素</button>
+				<button onclick="removeP()" id="p6">删除所有的P元素</button>
+			</div>
+			<div id="e1">
+				<div id="w2">
+					<a href="#" id="s2">让我过期末考试，让我过！！！</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
