@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="css/demo.css"><!--演示页面样式，使用时可以不引用-->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="dist/sortable.min.css">
+
+<script type="text/javascript" src="./dist/sortable.min.js"></script>
+
+</head>
+<body>
+
+<main class="sortable">
+<div class="container">
+  <div class="wrapper">
+	<ul class="sortable__nav nav">
+	  <li>
+		<a data-sjslink="all" class="nav__link">
+		 偶滴乖乖
+		</a>
+	  </li>
+	  <li>
+		<a data-sjslink="flatty" class="nav__link">
+		  可爱生活照片
+		</a>
+	  </li>
+	  <li>
+		<a data-sjslink="funny" class="nav__link">
+		  温暖
+		</a>
+	  </li>
+	</ul>
+	<div id="sortable" class="sjs-default">
+	  <div data-sjsel="flatty">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-1.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 1</h2>
+			<p class="card__text">
+			  布偶猫活体 双色重点色 宠物猫活体猫咪活体 布偶猫幼猫 海豹双色
+￥3500 收藏：88</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="flatty">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-2.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 2</h2>
+			<p class="card__text">
+			  加菲猫幼猫 加菲猫活体 宠物猫幼猫英国短毛猫 纯种宠物猫
+￥3800 收藏：8	</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="funny">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-3.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 3</h2>
+			<p class="card__text">
+			 曼基康短腿猫 矮脚猫纯种 小短腿猫 矮脚猫活体 矮脚猫幼猫
+￥5800 收藏：10		</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="flatty">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-4.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 4</h2>
+			<p class="card__text">
+			 红狗Reddog钙王狗毛补钙易吸收犬猫通用健骨补钙粉</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="flatty">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-5.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 5</h2>
+			<p class="card__text">
+			 冠能幼猫粮全价幼猫离乳期奶糕孕猫粮7kg多种维生素强化免疫力
+举报
+价格
+¥388.00 27.71元/500g
+净重7000g	</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="funny">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-6.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 6</h2>
+			<p class="card__text">*罗伯罗夫斯基仓鼠（Phodopus roborovskii），俗称“老公公鼠”。</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="flatty">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-7.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 7</h2>
+			<p class="card__text">
+			  茶杯猪，拥有吸引人的外形和驯服的性格。	</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="flatty">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-8.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 8</h2>
+			<p class="card__text">
+			  尖耳灵缇属于灵缇中最为高贵的品种，最早产于东欧大陆，经过长期的驯化与优选，在上世纪90年代才开始出现真正优质的尖耳品相。</p>
+		  </div>
+		</div>
+	  </div>
+	  <div data-sjsel="funny">
+		<div class="card">
+		  <img class="card__picture" src="./images/item-9.jpg" alt="">
+		  <div class="card-infos">
+			<h2 class="card__title">Example 9</h2>
+			<p class="card__text">
+			茶杯猫是一种袖珍迷你的猫咪，也称迷你猫，就是像茶杯大小的猫咪，甚至可以将其放入茶杯中。</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+</main>
+
+<script type="text/javascript">
+document.querySelector('#sortable').sortablejs()
+</script>
+
+</body>
+</html>
